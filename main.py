@@ -36,5 +36,5 @@ async def on_message(message):
 
 
 load_dotenv("config.env")
-keep_alive()
+# keep_alive()
 client.run(os.getenv("token"))
