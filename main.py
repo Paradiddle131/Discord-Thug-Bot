@@ -5,7 +5,6 @@ import bs4
 import discord
 import requests
 from dotenv import load_dotenv
-from keep_alive import keep_alive
 
 client = discord.Client()
 
@@ -36,5 +35,4 @@ async def on_message(message):
 
 
 load_dotenv("config.env")
-# keep_alive()
 client.run(os.getenv("token"))
