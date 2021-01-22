@@ -1,0 +1,476 @@
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:39:57,197: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001F553392448>
+INFO - apscheduler.scheduler - 2021-01-22 21:39:57,198: Scheduler started
+DEBUG - apscheduler.scheduler - 2021-01-22 21:39:57,198: Looking for jobs to run
+DEBUG - telegram.bot - 2021-01-22 21:39:57,198: Entering: get_me
+DEBUG - apscheduler.scheduler - 2021-01-22 21:39:57,198: No jobs; waiting until a job is added
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:39:57,199: Starting new HTTPS connection (1): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:39:58,821: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getMe HTTP/1.1" 200 192
+DEBUG - telegram.bot - 2021-01-22 21:39:58,822: {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+DEBUG - telegram.bot - 2021-01-22 21:39:58,822: Exiting: get_me
+DEBUG - telegram.ext.updater - 2021-01-22 21:39:58,822: Bot:1561407312:dispatcher - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:39:58,823: Bot:1561407312:updater - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:39:58,823: Updater thread started (polling)
+DEBUG - telegram.ext.updater - 2021-01-22 21:39:58,823: Start network loop retry bootstrap del webhook
+DEBUG - telegram.bot - 2021-01-22 21:39:58,823: Entering: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:39:58,823: Waiting for Dispatcher and polling to start
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:39:58,825: Dispatcher started
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:39:58,882: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/deleteWebhook HTTP/1.1" 200 68
+DEBUG - telegram.bot - 2021-01-22 21:39:58,882: True
+DEBUG - telegram.bot - 2021-01-22 21:39:58,882: Exiting: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:39:58,882: Bootstrap done
+DEBUG - telegram.ext.updater - 2021-01-22 21:39:58,882: Start network loop retry getting Updates
+DEBUG - telegram.bot - 2021-01-22 21:39:58,883: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:08,943: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:40:08,943: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:40:08,943: []
+DEBUG - telegram.bot - 2021-01-22 21:40:08,943: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:40:08,943: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:19,001: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:40:19,001: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:40:19,001: []
+DEBUG - telegram.bot - 2021-01-22 21:40:19,001: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:40:19,001: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:29,060: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:40:29,060: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:40:29,060: []
+DEBUG - telegram.bot - 2021-01-22 21:40:29,060: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:40:29,060: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:32,038: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 408
+DEBUG - telegram.bot - 2021-01-22 21:40:32,039: Getting updates: [88920729]
+DEBUG - telegram.bot - 2021-01-22 21:40:32,039: [<telegram.update.Update object at 0x000001F55324E8C8>]
+DEBUG - telegram.bot - 2021-01-22 21:40:32,039: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:40:32,039: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:40:32,039: Processing Update: {'update_id': 88920729, 'message': {'message_id': 2, 'date': 1611340831, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/start', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 6}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:40:32,040: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:32,040: Starting new HTTPS connection (2): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:32,313: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 200 375
+DEBUG - telegram.bot - 2021-01-22 21:40:32,313: {'message_id': 3, 'date': 1611340831, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': 'Yo! Type anything casual after the command /thugout', 'entities': [{'type': 'bot_command', 'offset': 43, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot'}}
+DEBUG - telegram.bot - 2021-01-22 21:40:32,313: Exiting: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:40,693: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 410
+DEBUG - telegram.bot - 2021-01-22 21:40:40,693: Getting updates: [88920730]
+DEBUG - telegram.bot - 2021-01-22 21:40:40,694: [<telegram.update.Update object at 0x000001F55325B3C8>]
+DEBUG - telegram.bot - 2021-01-22 21:40:40,694: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:40:40,694: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:40:40,694: Processing Update: {'update_id': 88920730, 'message': {'message_id': 4, 'date': 1611340840, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+WARNING - __main__ - 2021-01-22 21:40:40,694: Update "{'update_id': 88920730, 'message': {'message_id': 4, 'date': 1611340840, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}" caused error "thug_out() takes 1 positional argument but 2 were given"
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:50,751: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:40:50,751: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:40:50,751: []
+DEBUG - telegram.bot - 2021-01-22 21:40:50,751: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:40:50,751: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:40:51,334: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 431
+DEBUG - telegram.bot - 2021-01-22 21:40:51,335: Getting updates: [88920731]
+DEBUG - telegram.bot - 2021-01-22 21:40:51,335: [<telegram.update.Update object at 0x000001F55325B288>]
+DEBUG - telegram.bot - 2021-01-22 21:40:51,335: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:40:51,335: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:40:51,335: Processing Update: {'update_id': 88920731, 'message': {'message_id': 5, 'date': 1611340850, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+WARNING - __main__ - 2021-01-22 21:40:51,335: Update "{'update_id': 88920731, 'message': {'message_id': 5, 'date': 1611340850, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}" caused error "thug_out() takes 1 positional argument but 2 were given"
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:41:01,394: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:41:01,394: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:41:01,394: []
+DEBUG - telegram.bot - 2021-01-22 21:41:01,394: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:41:01,394: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:41:11,452: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:41:11,452: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:41:11,452: []
+DEBUG - telegram.bot - 2021-01-22 21:41:11,452: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:41:11,452: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:41:21,513: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:41:21,513: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:41:21,513: []
+DEBUG - telegram.bot - 2021-01-22 21:41:21,513: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:41:21,513: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:41:31,571: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:41:31,571: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:41:31,571: []
+DEBUG - telegram.bot - 2021-01-22 21:41:31,571: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:41:31,571: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:41:41,629: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:41:41,629: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:41:41,629: []
+DEBUG - telegram.bot - 2021-01-22 21:41:41,629: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:41:41,629: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:41:51,688: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:41:51,688: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:41:51,689: []
+DEBUG - telegram.bot - 2021-01-22 21:41:51,689: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:41:51,689: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:01,747: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:42:01,747: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:42:01,747: []
+DEBUG - telegram.bot - 2021-01-22 21:42:01,747: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:42:01,747: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:11,806: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:42:11,806: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:42:11,806: []
+DEBUG - telegram.bot - 2021-01-22 21:42:11,806: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:42:11,806: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:42:15,944: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001D557A094C8>
+INFO - apscheduler.scheduler - 2021-01-22 21:42:15,945: Scheduler started
+DEBUG - apscheduler.scheduler - 2021-01-22 21:42:15,945: Looking for jobs to run
+DEBUG - telegram.bot - 2021-01-22 21:42:15,946: Entering: get_me
+DEBUG - apscheduler.scheduler - 2021-01-22 21:42:15,946: No jobs; waiting until a job is added
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:15,946: Starting new HTTPS connection (1): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:16,151: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getMe HTTP/1.1" 200 192
+DEBUG - telegram.bot - 2021-01-22 21:42:16,152: {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+DEBUG - telegram.bot - 2021-01-22 21:42:16,152: Exiting: get_me
+DEBUG - telegram.ext.updater - 2021-01-22 21:42:16,152: Bot:1561407312:dispatcher - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:42:16,152: Bot:1561407312:updater - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:42:16,152: Waiting for Dispatcher and polling to start
+DEBUG - telegram.ext.updater - 2021-01-22 21:42:16,152: Updater thread started (polling)
+DEBUG - telegram.ext.updater - 2021-01-22 21:42:16,153: Start network loop retry bootstrap del webhook
+DEBUG - telegram.bot - 2021-01-22 21:42:16,153: Entering: delete_webhook
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:42:16,153: Dispatcher started
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:16,208: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/deleteWebhook HTTP/1.1" 200 68
+DEBUG - telegram.bot - 2021-01-22 21:42:16,208: True
+DEBUG - telegram.bot - 2021-01-22 21:42:16,208: Exiting: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:42:16,208: Bootstrap done
+DEBUG - telegram.ext.updater - 2021-01-22 21:42:16,208: Start network loop retry getting Updates
+DEBUG - telegram.bot - 2021-01-22 21:42:16,208: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:21,005: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 431
+DEBUG - telegram.bot - 2021-01-22 21:42:21,005: Getting updates: [88920732]
+DEBUG - telegram.bot - 2021-01-22 21:42:21,005: [<telegram.update.Update object at 0x000001D557A3D6C8>]
+DEBUG - telegram.bot - 2021-01-22 21:42:21,005: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:42:21,006: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:42:21,006: Processing Update: {'update_id': 88920732, 'message': {'message_id': 6, 'date': 1611340940, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:42:21,180: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:21,180: Starting new HTTPS connection (2): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:21,369: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 400 80
+WARNING - __main__ - 2021-01-22 21:42:21,369: Update "{'update_id': 88920732, 'message': {'message_id': 6, 'date': 1611340940, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}" caused error "Message text is empty"
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:31,062: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:42:31,062: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:42:31,062: []
+DEBUG - telegram.bot - 2021-01-22 21:42:31,062: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:42:31,062: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:41,118: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:42:41,118: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:42:41,118: []
+DEBUG - telegram.bot - 2021-01-22 21:42:41,118: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:42:41,118: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:42:51,180: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:42:51,180: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:42:51,180: []
+DEBUG - telegram.bot - 2021-01-22 21:42:51,180: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:42:51,180: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:01,240: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:43:01,240: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:43:01,240: []
+DEBUG - telegram.bot - 2021-01-22 21:43:01,240: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:43:01,240: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:43:07,976: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001806C2964C8>
+INFO - apscheduler.scheduler - 2021-01-22 21:43:07,976: Scheduler started
+DEBUG - apscheduler.scheduler - 2021-01-22 21:43:07,977: Looking for jobs to run
+DEBUG - telegram.bot - 2021-01-22 21:43:07,977: Entering: get_me
+DEBUG - apscheduler.scheduler - 2021-01-22 21:43:07,977: No jobs; waiting until a job is added
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:07,978: Starting new HTTPS connection (1): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:08,180: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getMe HTTP/1.1" 200 192
+DEBUG - telegram.bot - 2021-01-22 21:43:08,181: {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+DEBUG - telegram.bot - 2021-01-22 21:43:08,181: Exiting: get_me
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:08,184: Bot:1561407312:dispatcher - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:08,185: Bot:1561407312:updater - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:08,185: Waiting for Dispatcher and polling to start
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:08,186: Updater thread started (polling)
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:08,186: Start network loop retry bootstrap del webhook
+DEBUG - telegram.bot - 2021-01-22 21:43:08,186: Entering: delete_webhook
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:43:08,193: Dispatcher started
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:08,243: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/deleteWebhook HTTP/1.1" 200 68
+DEBUG - telegram.bot - 2021-01-22 21:43:08,244: True
+DEBUG - telegram.bot - 2021-01-22 21:43:08,244: Exiting: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:08,244: Bootstrap done
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:08,244: Start network loop retry getting Updates
+DEBUG - telegram.bot - 2021-01-22 21:43:08,244: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:11,892: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 431
+DEBUG - telegram.bot - 2021-01-22 21:43:11,892: Getting updates: [88920733]
+DEBUG - telegram.bot - 2021-01-22 21:43:11,892: [<telegram.update.Update object at 0x000001806C2CC7C8>]
+DEBUG - telegram.bot - 2021-01-22 21:43:11,892: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:43:11,892: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:43:11,892: Processing Update: {'update_id': 88920733, 'message': {'message_id': 7, 'date': 1611340991, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:43:12,060: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:12,060: Starting new HTTPS connection (2): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:12,245: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 400 80
+WARNING - __main__ - 2021-01-22 21:43:12,245: Update "{'update_id': 88920733, 'message': {'message_id': 7, 'date': 1611340991, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}" caused error "Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?"
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:21,947: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:43:21,949: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:43:21,949: []
+DEBUG - telegram.bot - 2021-01-22 21:43:21,949: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:43:21,949: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:32,004: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:43:32,004: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:43:32,004: []
+DEBUG - telegram.bot - 2021-01-22 21:43:32,004: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:43:32,004: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:43:38,756: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x00000278A6685508>
+INFO - apscheduler.scheduler - 2021-01-22 21:43:38,757: Scheduler started
+DEBUG - apscheduler.scheduler - 2021-01-22 21:43:38,758: Looking for jobs to run
+DEBUG - telegram.bot - 2021-01-22 21:43:38,758: Entering: get_me
+DEBUG - apscheduler.scheduler - 2021-01-22 21:43:38,758: No jobs; waiting until a job is added
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:38,759: Starting new HTTPS connection (1): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:38,951: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getMe HTTP/1.1" 200 192
+DEBUG - telegram.bot - 2021-01-22 21:43:38,952: {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+DEBUG - telegram.bot - 2021-01-22 21:43:38,952: Exiting: get_me
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:38,952: Bot:1561407312:dispatcher - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:38,953: Bot:1561407312:updater - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:38,954: Waiting for Dispatcher and polling to start
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:38,954: Updater thread started (polling)
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:38,954: Start network loop retry bootstrap del webhook
+DEBUG - telegram.bot - 2021-01-22 21:43:38,954: Entering: delete_webhook
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:43:38,956: Dispatcher started
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:39,011: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/deleteWebhook HTTP/1.1" 200 68
+DEBUG - telegram.bot - 2021-01-22 21:43:39,011: True
+DEBUG - telegram.bot - 2021-01-22 21:43:39,011: Exiting: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:39,011: Bootstrap done
+DEBUG - telegram.ext.updater - 2021-01-22 21:43:39,011: Start network loop retry getting Updates
+DEBUG - telegram.bot - 2021-01-22 21:43:39,012: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:43,796: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 431
+DEBUG - telegram.bot - 2021-01-22 21:43:43,796: Getting updates: [88920734]
+DEBUG - telegram.bot - 2021-01-22 21:43:43,797: [<telegram.update.Update object at 0x00000278A2E18248>]
+DEBUG - telegram.bot - 2021-01-22 21:43:43,797: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:43:43,797: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:43:43,797: Processing Update: {'update_id': 88920734, 'message': {'message_id': 8, 'date': 1611341023, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:43:53,853: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:43:53,853: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:43:53,853: []
+DEBUG - telegram.bot - 2021-01-22 21:43:53,853: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:43:53,853: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:03,910: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:44:03,910: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:44:03,910: []
+DEBUG - telegram.bot - 2021-01-22 21:44:03,910: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:44:03,912: Entering: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:44:09,496: Entering: get_my_commands
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:09,496: Starting new HTTPS connection (2): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:09,878: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getMyCommands HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:44:09,878: []
+DEBUG - telegram.bot - 2021-01-22 21:44:09,878: Exiting: get_my_commands
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:13,968: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:44:13,968: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:44:13,968: []
+DEBUG - telegram.bot - 2021-01-22 21:44:13,968: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:44:13,968: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:24,027: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:44:24,027: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:44:24,027: []
+DEBUG - telegram.bot - 2021-01-22 21:44:24,027: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:44:24,027: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:34,093: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:44:34,093: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:44:34,093: []
+DEBUG - telegram.bot - 2021-01-22 21:44:34,093: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:44:34,094: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:44,150: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:44:44,150: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:44:44,150: []
+DEBUG - telegram.bot - 2021-01-22 21:44:44,151: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:44:44,151: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:44:47,994: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x000001D8F99825C8>
+INFO - apscheduler.scheduler - 2021-01-22 21:44:47,995: Scheduler started
+DEBUG - apscheduler.scheduler - 2021-01-22 21:44:47,996: Looking for jobs to run
+DEBUG - apscheduler.scheduler - 2021-01-22 21:44:47,996: No jobs; waiting until a job is added
+DEBUG - telegram.bot - 2021-01-22 21:44:47,996: Entering: get_me
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:47,997: Starting new HTTPS connection (1): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:48,263: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getMe HTTP/1.1" 200 192
+DEBUG - telegram.bot - 2021-01-22 21:44:48,264: {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+DEBUG - telegram.bot - 2021-01-22 21:44:48,264: Exiting: get_me
+DEBUG - telegram.ext.updater - 2021-01-22 21:44:48,265: Bot:1561407312:dispatcher - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:44:48,266: Bot:1561407312:updater - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:44:48,266: Updater thread started (polling)
+DEBUG - telegram.ext.updater - 2021-01-22 21:44:48,266: Start network loop retry bootstrap del webhook
+DEBUG - telegram.bot - 2021-01-22 21:44:48,266: Entering: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:44:48,267: Waiting for Dispatcher and polling to start
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:44:48,269: Dispatcher started
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:48,326: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/deleteWebhook HTTP/1.1" 200 68
+DEBUG - telegram.bot - 2021-01-22 21:44:48,327: True
+DEBUG - telegram.bot - 2021-01-22 21:44:48,327: Exiting: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:44:48,327: Bootstrap done
+DEBUG - telegram.ext.updater - 2021-01-22 21:44:48,327: Start network loop retry getting Updates
+DEBUG - telegram.bot - 2021-01-22 21:44:48,327: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:51,318: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 431
+DEBUG - telegram.bot - 2021-01-22 21:44:51,318: Getting updates: [88920735]
+DEBUG - telegram.bot - 2021-01-22 21:44:51,319: [<telegram.update.Update object at 0x000001D8F99E7048>]
+DEBUG - telegram.bot - 2021-01-22 21:44:51,319: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:44:51,319: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:44:51,319: Processing Update: {'update_id': 88920735, 'message': {'message_id': 9, 'date': 1611341090, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:44:56,741: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:56,741: Starting new HTTPS connection (2): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:44:56,988: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 200 287
+DEBUG - telegram.bot - 2021-01-22 21:44:56,988: {'message_id': 10, 'date': 1611341096, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': 'wassup mah dear playa', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot'}}
+DEBUG - telegram.bot - 2021-01-22 21:44:56,989: Exiting: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:01,380: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:45:01,380: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:45:01,380: []
+DEBUG - telegram.bot - 2021-01-22 21:45:01,380: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:45:01,381: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:11,439: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:45:11,440: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:45:11,440: []
+DEBUG - telegram.bot - 2021-01-22 21:45:11,440: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:45:11,440: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:16,791: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 432
+DEBUG - telegram.bot - 2021-01-22 21:45:16,791: Getting updates: [88920736]
+DEBUG - telegram.bot - 2021-01-22 21:45:16,791: [<telegram.update.Update object at 0x000001D8F99FCD88>]
+DEBUG - telegram.bot - 2021-01-22 21:45:16,792: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:45:16,792: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:45:18,923: Processing Update: {'update_id': 88920736, 'message': {'message_id': 11, 'date': 1611341116, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': '/thugout hello my dear friend', 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:45:19,100: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:19,240: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 200 287
+DEBUG - telegram.bot - 2021-01-22 21:45:19,240: {'message_id': 12, 'date': 1611341118, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': 'wassup mah dear playa', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot'}}
+DEBUG - telegram.bot - 2021-01-22 21:45:19,241: Exiting: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:26,852: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:45:26,852: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:45:26,852: []
+DEBUG - telegram.bot - 2021-01-22 21:45:26,852: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:45:26,852: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:36,023: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 435
+DEBUG - telegram.bot - 2021-01-22 21:45:36,023: Getting updates: [88920737]
+DEBUG - telegram.bot - 2021-01-22 21:45:36,024: [<telegram.update.Update object at 0x000001D8F9A5A108>]
+DEBUG - telegram.bot - 2021-01-22 21:45:36,024: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:45:36,024: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:45:36,024: Processing Update: {'update_id': 88920737, 'message': {'message_id': 13, 'date': 1611341135, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': "/thugout  I don't like this game", 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:45:36,195: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:36,410: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 200 287
+DEBUG - telegram.bot - 2021-01-22 21:45:36,411: {'message_id': 14, 'date': 1611341135, 'chat': {'id': 977732835, 'type': 'private', 'username': 'Paradiddle3', 'first_name': 'Ensar', 'last_name': 'Erdağ'}, 'text': "I don't like dis game", 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot'}}
+DEBUG - telegram.bot - 2021-01-22 21:45:36,411: Exiting: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:46,084: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:45:46,084: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:45:46,084: []
+DEBUG - telegram.bot - 2021-01-22 21:45:46,084: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:45:46,084: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:45:56,144: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:45:56,145: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:45:56,145: []
+DEBUG - telegram.bot - 2021-01-22 21:45:56,145: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:45:56,145: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:06,204: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:46:06,204: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:46:06,204: []
+DEBUG - telegram.bot - 2021-01-22 21:46:06,204: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:46:06,204: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:16,265: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:46:16,265: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:46:16,265: []
+DEBUG - telegram.bot - 2021-01-22 21:46:16,265: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:46:16,265: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:26,330: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:46:26,330: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:46:26,330: []
+DEBUG - telegram.bot - 2021-01-22 21:46:26,331: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:46:26,331: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:36,392: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:46:36,392: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:46:36,392: []
+DEBUG - telegram.bot - 2021-01-22 21:46:36,392: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:46:36,392: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:46,452: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:46:46,453: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:46:46,453: []
+DEBUG - telegram.bot - 2021-01-22 21:46:46,453: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:46:46,453: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:46:55,617: Setting singleton dispatcher as <telegram.ext.dispatcher.Dispatcher object at 0x0000020E1A3D6588>
+INFO - apscheduler.scheduler - 2021-01-22 21:46:55,617: Scheduler started
+DEBUG - apscheduler.scheduler - 2021-01-22 21:46:55,618: Looking for jobs to run
+DEBUG - telegram.bot - 2021-01-22 21:46:55,618: Entering: get_me
+DEBUG - apscheduler.scheduler - 2021-01-22 21:46:55,618: No jobs; waiting until a job is added
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:55,618: Starting new HTTPS connection (1): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:55,800: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getMe HTTP/1.1" 200 192
+DEBUG - telegram.bot - 2021-01-22 21:46:55,800: {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot', 'can_join_groups': True, 'can_read_all_group_messages': False, 'supports_inline_queries': False}
+DEBUG - telegram.bot - 2021-01-22 21:46:55,800: Exiting: get_me
+DEBUG - telegram.ext.updater - 2021-01-22 21:46:55,801: Bot:1561407312:dispatcher - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:46:55,801: Bot:1561407312:updater - started
+DEBUG - telegram.ext.updater - 2021-01-22 21:46:55,801: Waiting for Dispatcher and polling to start
+DEBUG - telegram.ext.updater - 2021-01-22 21:46:55,801: Updater thread started (polling)
+DEBUG - telegram.ext.updater - 2021-01-22 21:46:55,801: Start network loop retry bootstrap del webhook
+DEBUG - telegram.bot - 2021-01-22 21:46:55,801: Entering: delete_webhook
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:46:55,802: Dispatcher started
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:46:55,862: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/deleteWebhook HTTP/1.1" 200 68
+DEBUG - telegram.bot - 2021-01-22 21:46:55,862: True
+DEBUG - telegram.bot - 2021-01-22 21:46:55,863: Exiting: delete_webhook
+DEBUG - telegram.ext.updater - 2021-01-22 21:46:55,863: Bootstrap done
+DEBUG - telegram.ext.updater - 2021-01-22 21:46:55,863: Start network loop retry getting Updates
+DEBUG - telegram.bot - 2021-01-22 21:46:55,863: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:47:05,919: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:47:05,919: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:47:05,919: []
+DEBUG - telegram.bot - 2021-01-22 21:47:05,919: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:47:05,919: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:47:15,974: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:47:15,974: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:47:15,974: []
+DEBUG - telegram.bot - 2021-01-22 21:47:15,974: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:47:15,974: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:47:26,034: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:47:26,034: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:47:26,034: []
+DEBUG - telegram.bot - 2021-01-22 21:47:26,034: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:47:26,034: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:47:36,090: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:47:36,090: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:47:36,090: []
+DEBUG - telegram.bot - 2021-01-22 21:47:36,090: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:47:36,090: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:47:46,151: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:47:46,151: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:47:46,151: []
+DEBUG - telegram.bot - 2021-01-22 21:47:46,151: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:47:46,151: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:47:56,207: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:47:56,208: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:47:56,208: []
+DEBUG - telegram.bot - 2021-01-22 21:47:56,208: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:47:56,208: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:04,679: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 628
+DEBUG - telegram.bot - 2021-01-22 21:48:04,679: Getting updates: [88920738]
+DEBUG - telegram.bot - 2021-01-22 21:48:04,679: [<telegram.update.Update object at 0x0000020E1A3D6B08>]
+DEBUG - telegram.bot - 2021-01-22 21:48:04,679: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:48:04,679: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:48:04,679: Processing Update: {'update_id': 88920738, 'message': {'message_id': 15, 'date': 1611341284, 'chat': {'id': -351641587, 'type': 'group', 'title': 'Bot Sandbox', 'all_members_are_administrators': True}, 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [{'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot'}], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:14,637: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 414
+DEBUG - telegram.bot - 2021-01-22 21:48:14,638: Getting updates: [88920739]
+DEBUG - telegram.bot - 2021-01-22 21:48:14,638: [<telegram.update.Update object at 0x0000020E1A40CC08>]
+DEBUG - telegram.bot - 2021-01-22 21:48:14,638: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:48:14,638: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:48:14,638: Processing Update: {'update_id': 88920739, 'message': {'message_id': 16, 'date': 1611341294, 'chat': {'id': -351641587, 'type': 'group', 'title': 'Bot Sandbox', 'all_members_are_administrators': True}, 'text': "/yo what's up my friend", 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:48:14,638: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:14,639: Starting new HTTPS connection (2): api.telegram.org
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:14,880: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 200 741
+DEBUG - telegram.bot - 2021-01-22 21:48:14,880: {'message_id': 17, 'date': 1611341294, 'chat': {'id': -351641587, 'type': 'group', 'title': 'Bot Sandbox', 'all_members_are_administrators': True}, 'reply_to_message': {'message_id': 16, 'date': 1611341294, 'chat': {'id': -351641587, 'type': 'group', 'title': 'Bot Sandbox', 'all_members_are_administrators': True}, 'text': "/yo what's up my friend", 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 3}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}, 'text': 'Yo! Type anything casual after the command /thugout', 'entities': [{'type': 'bot_command', 'offset': 43, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot'}}
+DEBUG - telegram.bot - 2021-01-22 21:48:14,880: Exiting: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:24,692: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:48:24,693: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:48:24,693: []
+DEBUG - telegram.bot - 2021-01-22 21:48:24,693: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:48:24,693: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:28,144: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 419
+DEBUG - telegram.bot - 2021-01-22 21:48:28,144: Getting updates: [88920740]
+DEBUG - telegram.bot - 2021-01-22 21:48:28,144: [<telegram.update.Update object at 0x0000020E1A41A608>]
+DEBUG - telegram.bot - 2021-01-22 21:48:28,144: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:48:28,144: Entering: get_updates
+DEBUG - telegram.ext.dispatcher - 2021-01-22 21:48:28,145: Processing Update: {'update_id': 88920740, 'message': {'message_id': 18, 'date': 1611341307, 'chat': {'id': -351641587, 'type': 'group', 'title': 'Bot Sandbox', 'all_members_are_administrators': True}, 'text': "/thugout what's up my friend", 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}}
+DEBUG - telegram.bot - 2021-01-22 21:48:28,319: Entering: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:28,434: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/sendMessage HTTP/1.1" 200 653
+DEBUG - telegram.bot - 2021-01-22 21:48:28,434: {'message_id': 19, 'date': 1611341307, 'chat': {'id': -351641587, 'type': 'group', 'title': 'Bot Sandbox', 'all_members_are_administrators': True}, 'reply_to_message': {'message_id': 18, 'date': 1611341307, 'chat': {'id': -351641587, 'type': 'group', 'title': 'Bot Sandbox', 'all_members_are_administrators': True}, 'text': "/thugout what's up my friend", 'entities': [{'type': 'bot_command', 'offset': 0, 'length': 8}], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 977732835, 'first_name': 'Ensar', 'is_bot': False, 'last_name': 'Erdağ', 'username': 'Paradiddle3', 'language_code': 'en'}}, 'text': 'what up mah playa', 'entities': [], 'caption_entities': [], 'photo': [], 'new_chat_members': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'group_chat_created': False, 'supergroup_chat_created': False, 'channel_chat_created': False, 'from': {'id': 1561407312, 'first_name': 'SnoopBott', 'is_bot': True, 'username': 'ThugOutBot'}}
+DEBUG - telegram.bot - 2021-01-22 21:48:28,434: Exiting: send_message
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:38,202: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:48:38,202: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:48:38,202: []
+DEBUG - telegram.bot - 2021-01-22 21:48:38,202: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:48:38,202: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:48,270: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:48:48,270: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:48:48,270: []
+DEBUG - telegram.bot - 2021-01-22 21:48:48,270: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:48:48,270: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:48:58,328: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:48:58,328: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:48:58,328: []
+DEBUG - telegram.bot - 2021-01-22 21:48:58,328: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:48:58,328: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:49:08,386: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:49:08,387: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:49:08,387: []
+DEBUG - telegram.bot - 2021-01-22 21:49:08,387: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:49:08,387: Entering: get_updates
+DEBUG - telegram.vendor.ptb_urllib3.urllib3.connectionpool - 2021-01-22 21:49:18,445: https://api.telegram.org:443 "POST /bot1561407312:AAG7XrwYUNCooSfmDpqamI2SMxRG1qGbzxs/getUpdates HTTP/1.1" 200 23
+DEBUG - telegram.bot - 2021-01-22 21:49:18,445: No new updates found.
+DEBUG - telegram.bot - 2021-01-22 21:49:18,445: []
+DEBUG - telegram.bot - 2021-01-22 21:49:18,445: Exiting: get_updates
+DEBUG - telegram.bot - 2021-01-22 21:49:18,445: Entering: get_updates
