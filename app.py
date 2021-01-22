@@ -50,7 +50,7 @@ def error(update, context):
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 
-def main():
+def run_bot():
     """Start the bot."""
     updater = Updater(os.getenv("telegram_token"), use_context=True)
 
@@ -78,4 +78,4 @@ def main():
 if __name__ == '__main__':
     keep_alive()
     load_dotenv("config.env")
-    main()
+    run_bot()
