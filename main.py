@@ -6,6 +6,7 @@ import bs4
 import requests
 from dotenv import load_dotenv
 from telegram.ext import Updater, CommandHandler
+from keep_alive import keep_alive
 
 logging.basicConfig(handlers=[logging.FileHandler(encoding='utf-8', filename='bot.log')],
                     level=logging.DEBUG,
@@ -75,5 +76,6 @@ def main():
 
 
 if __name__ == '__main__':
+    keep_alive()
     load_dotenv("config.env")
     main()
