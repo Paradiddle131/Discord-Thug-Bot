@@ -13,6 +13,8 @@ logging.basicConfig(handlers=[logging.FileHandler(encoding='utf-8', filename='bo
                     format=u'%(levelname)s - %(name)s - %(asctime)s: %(message)s')
 
 logger = logging.getLogger(__name__)
+keep_alive()
+load_dotenv("config.env")
 
 
 def thug_out(update, context):
@@ -50,7 +52,7 @@ def error(update, context):
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
 
-def run_bot():
+def main():
     """Start the bot."""
     updater = Updater(os.getenv("telegram_token"), use_context=True)
 
@@ -75,7 +77,4 @@ def run_bot():
     updater.idle()
 
 
-if __name__ == '__main__':
-    keep_alive()
-    load_dotenv("config.env")
-    run_bot()
+main()
